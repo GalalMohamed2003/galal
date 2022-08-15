@@ -1,0 +1,36 @@
+
+header {
+    min-height: 100vh;
+   background-image: url(../img/banner1.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 150px;
+}
+h1{
+    font-size: 70px;
+    font-weight: bold;
+}
+header p{
+    font-size: 20px;
+    color: white;
+}
+.GALLERY{
+    margin-left:15px;
+    overflow: hidden;
+    padding: 10px;
+}
+.GALLERY img{
+    width: 100%;
+    opacity:1;
+   transition: 0.5s;
+transform: scale(1);
+} 
+.GALLERY img:hover{
+    opacity: 1;
+transform: scale(1.1);
+}
+.GALLERYp{
+background-color:#2A2B2A;
+color: white;
+text-align: center;
+}
